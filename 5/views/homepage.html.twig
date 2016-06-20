@@ -1,0 +1,6 @@
+<h1>Chapter 5: {{ term }}</h1>
+<ol>
+  {% for result in results %}
+    <li>Type: {{ result.type }}, Value: {{ result.value }}</li>
+  {% endfor %}
+</ol>
